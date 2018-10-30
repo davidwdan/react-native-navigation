@@ -70,7 +70,7 @@ Navigation.events().registerComponentDidDisappearListener(({ componentId, compon
 The `commandListener` is called whenever a *Navigation command* (i.e push, pop, showModal etc) is invoked.
 
 ```js
-Navigation.events().registerCommandListener(({ name, params }) => {
+Navigation.events().registerCommandListener((name, params) => {
 
 });
 ```
